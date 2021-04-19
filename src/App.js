@@ -2,7 +2,8 @@ import React from "react";
 
 class Welcome extends React.Component {
   componentDidMount() {
-    var css = "h1 { color: red; } #styleClass{background: yellow;} ",
+    var css =
+        "h1 { color: red; } #styleClass{background: yellow;} h1:hover {color: blue;} ",
       head = document.getElementById("styleClass"),
       style = document.createElement("style");
 
